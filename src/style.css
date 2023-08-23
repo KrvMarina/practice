@@ -93,10 +93,36 @@ input {
 }
 
 .button-tune .icon,
-.cabinet .icon {
+.icon-fill {
   margin-right: 8px;
 }
 
-.icon-person {
+.icon-fill {
   font-variation-settings: "FILL" 1;
+}
+
+.second-icon {
+  color: #b8c9c9;
+}
+
+main {
+  margin-top: 64px;
+}
+.menu,
+.icon-card-list {
+  list-style-type: none;
+}
+
+.menu a {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+.icon-card-list li {
+  display: inline-flex;
+  align-items: center;
+  margin-right: 16px;
+}
+.menu li {
+  margin-bottom: 24px;
 }
